@@ -1,0 +1,98 @@
+.control-dots{
+    display: none
+}
+
+.btn-conheca {
+    width: 330px;
+    height: 67px;
+    border-radius: 100px;
+    background: linear-gradient(90deg,#101820 50%,#FFC845 50%  );
+    background-size: 200% 100%;
+    background-position: left;
+    font-family: 'OpenSauceOne', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 700;
+    transition: background-position 0.5s ease;
+    color: #FFC845;
+}
+
+.btn-conheca:hover {
+    background-position: right;
+    color: #101820;
+}
+
+.btn-receber-proposta {
+    width: 447px;
+    height: 67px;
+    border-radius: 100px;
+    background: linear-gradient(90deg,#FFC845 50%, #101820 50% );
+    background-size: 200% 100%;
+    background-position: left;
+    font-family: 'OpenSauceOne', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 700;
+    transition: background-position 0.5s ease;
+    color: #101820;
+}
+
+.btn-receber-proposta:hover {
+    background-position: right;
+    color: #FFC845;
+}
+
+.text-animate {
+    opacity: 0;
+    transform: translateY(80px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.text-animate.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+.title-small{
+    font-size: 24px;
+    line-height: 32px;
+}
+.text-small{
+    font-size: 16px;
+}
+
+.title-about{
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 32px;
+    color: #A4A4A4;
+    font-family: 'OpenSauceOne', sans-serif;
+    font-weight: 400;
+}
+
+.swiper-button-prev::after {
+    content: '';
+}
+.swiper-button-next::after {
+    content: '';
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+    /* background-image: url('/assets//icones/arrow.png');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    z-index: 999; */
+    display: none;
+}
+
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+    background-image: url('/assets//icones/arrow.png');
+    background-size: cover;
+    width: 66px;
+    height: 66px;
+}

@@ -1,0 +1,21 @@
+.footer{
+    background-color: #101820;
+    /* min-height: 1612px; */
+    background-image: url('/assets/imagens/symbol_monbank_bg_dark.png');
+    background-size: cover;
+    padding: 50px;
+    
+
+}
+
+.footer__container{
+    margin: 30px;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px){
+    .footer{
+        padding: 50px 20px;
+    }
+}

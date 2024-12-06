@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'OpenSauceSans';
+    src: url('/assets/fontes/OpenSauceSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSauceSans';
+    src: url('/assets/fontes/OpenSauceSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSauceSans';
+    src: url('/assets/fontes/OpenSauceSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'OpenSauceOne';
+    src: url('/assets/fontes/OpenSauceOne-Light.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSauceOne';
+    src: url('/assets/fontes/OpenSauceOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSauceOne';
+    src: url('/assets/fontes/OpenSauceOne-SemiBold.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSauceOne';
+    src: url('/assets/fontes/OpenSauceOne-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSauceOne';
+    src: url('/assets/fontes/OpenSauceOne-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+.title-desktop{
+    font-family: 'OpenSauceSans', sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: left;
+}
+
+.title-mobile{
+    font-family: 'OpenSauceSans', sans-serif;
+    font-size: 36px;
+    line-height: 52px;
+    text-align: left;
+}
+
+.subtitle-desktop{
+    font-family: 'OpenSauceOne', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.subtitle-mobile{
+    font-family: 'OpenSauceOne', sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+}
+
+.text-desktop{
+    font-family: 'OpenSauceOne', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+}
+
+.text-mobile{
+    font-family: 'OpenSauceOne', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: left;
+}
+
+.text-light{
+    color: #fafafa;
+}
+
+.text-w-700{
+    font-weight: 700;
+}
+
+.text-w-400{
+    font-weight: 400;
+}
+
+.text-w-500{
+    font-weight: 500;
+}
+
+.text-w-200{
+    font-weight: 200;
+}
+
+.text-extra-small{
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.btn-yellow {
+    min-width: 250px;
+    max-width: 430px;
+    height: 45px;
+    border-radius: 100px;
+    background: linear-gradient(90deg,#FAFAFA 50% ,#101820 50% );
+    border: 1px solid #101820;
+    background-size: 200% 100%;
+    background-position: left;
+    font-family: 'OpenSauceOne', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 700;
+    transition: background-position 0.5s ease;
+    color: #101820;
+}
+
+.btn-yellow:hover {
+    background-position: right;
+    color: #FFC845;
+}
+
+.btn-dark {
+    min-width: 250px;
+    max-width: 430px;
+    height: 45px;
+    border-radius: 100px;
+    background: linear-gradient(90deg,#101820 50% ,#FFC845 50% );
+    border: 1px solid #101820;
+    background-size: 200% 100%;
+    background-position: left;
+    font-family: 'OpenSauceOne', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 700;
+    transition: background-position 0.5s ease;
+    color: #FFC845;
+}
+
+.btn-dark:hover {
+    background-position: right;
+    color: #101820;
+    border: 1px solid #FFC845;
+}
+
+.btn-contato{
+    max-width: 100%;
+}
+
+.text-yellow{
+    color: #FFC845;
+}
+
+.text-white{
+    color: #fafafa;
+}
+
+.d-none{
+    display: none !important;
+}
+
+.color-grey{
+    color: rgb(145, 145, 145);
+    
+}
+  

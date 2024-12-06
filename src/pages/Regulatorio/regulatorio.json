@@ -1,0 +1,89 @@
+[
+    {
+        "title": "Regulatório",
+        "links": [
+            {
+                "icon" : "/assets/icones/pdf-icon.png",
+                "title": "Esclarecimentos sobre o SCR - Sistema de Informações de Crédito",
+                "url": "https://monbank.net/wp-content/uploads/2023/11/SCR_Sistema_de_Informacoes_de_Credito.pdf"
+            },
+            {
+                "icon" : "/assets/icones/pdf-icon.png",
+                "title": "Tabela de Taxas e Tarifas",
+                "url": "https://monbank.net/wp-content/uploads/2023/06/TARIFAS-E-TAXAS-PRATICADAS.pdf"
+            }
+        ]
+    },
+    {
+        "title": "Termos de Abertura de Conta",
+        "links": [
+            {
+                "icon" : "/assets/icones/pdf-icon.png",
+                "title": "Termo de Abertura de Conta de Pagamento e Condições de Uso do Aplicativo Monbank - Pessoa Física",
+                "url": "https://monbank.net/wp-content/uploads/2024/07/Termo-de-Abertura-de-Conta-de-Pagamento-e-Condicoes-de-Uso-do-Aplicativo-Monbank-Pessoa-Fisica.pdf"
+            },
+            {
+                "icon" : "/assets/icones/pdf-icon.png",
+                "title": "Termo de Abertura de Conta de Pagamento e Condições de Uso do Aplicativo Monbank - Pessoa Jurídica",
+                "url": "https://monbank.net/wp-content/uploads/2024/07/Termo-de-Abertura-de-Conta-de-Pagamento-e-Condicoes-de-Uso-do-Aplicativo-Monbank-Pessoa-Juricida.pdf"
+            }
+
+        ]
+    },
+    {
+        "title": "Demonstrações Contábeis",
+        "links": [
+            {
+                "icon" : "/assets/icones/pdf-icon.png",
+                "title": "Balanço Patrimonial 2022",
+                "url": "https://monbank.net/wp-content/uploads/2023/06/Balanco-2022.pdf"
+            },
+            {
+                "icon" : "/assets/icones/pdf-icon.png",
+                "title": "Demonstração do Resultado 2022",
+                "url": "https://monbank.net/wp-content/uploads/2023/06/DRE-2022.pdf"
+            },
+            {
+                "icon" : "/assets/icones/pdf-icon.png",
+                "title": "Demonstração da Mutação do Patrimônio Líquido",
+                "url": "https://monbank.net/wp-content/uploads/2023/06/DMPL-2022.pdf"
+            },
+            {
+                "icon" : "/assets/icones/pdf-icon.png",
+                "title": "Demonstração dos Fluxos de Caixa 2022",
+                "url": "https://monbank.net/wp-content/uploads/2023/06/DFC-2022.pdf"
+            }
+           
+        ]
+    },
+    {
+        "title": "Ouvidoria",
+        "links": [
+            {
+                "icon" : "/assets/icones/pdf-icon.png",
+                "title": "Canal de Ouvidoria",
+                "url": "https://monbank.net/ouvidoria"
+            },
+            {
+                "icon" : "/assets/icones/pdf-icon.png",
+                "title": "Relatório Ouvidoria Monbank 2º Semestre de 2023",
+                "url": "https://monbank.net/wp-content/uploads/2024/01/Relatorio-Ouvidoria-2o-Semestre-2023.pdf"
+            },
+            {
+                "icon" : "/assets/icones/pdf-icon.png",
+                "title": "Relatório Ouvidoria Monbank 1º Semestre de 2024",
+                "url": "https://monbank.net/wp-content/uploads/2024/07/Relatorio-Ouvidoria-1o-Semestre-2024.pdf"
+            }
+        ]
+    },
+    {
+        "title": "Políticas",
+        "links": [
+            {
+                "icon" : "/assets/icones/link-icon.png",
+                "title": "Política de Privacidade",
+                "url": "https://monbank.net/politica-de-privacidade/"
+            }
+        ]
+    }
+]
